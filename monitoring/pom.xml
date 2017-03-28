@@ -46,9 +46,9 @@
 	
 	<distributionManagement>
 	    <repository>
-	        <id>nexus-release-repository</id>
-	        <name>release-repository</name>
-	        <url>${REPOSITORY_URL}</url>
+	        <id>releases</id>
+	        <name>releases</name>
+	        <url>http://10.0.1.68/nexus/content/repositories/releases</url>
 	    </repository>
 	</distributionManagement>
 
