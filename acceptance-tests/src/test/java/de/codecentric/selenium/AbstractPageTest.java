@@ -17,7 +17,7 @@ public abstract class AbstractPageTest {
 
     @Before
     public void setUp() {
-        System.setProperty=("webdriver.gecko.driver","/usr/bin/geckodriver");
+        System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
         driver = new FirefoxDriver();
         baseUrl = System.getProperty(SYSTEM_PROPERTY);
         if (StringUtils.isEmpty(baseUrl)) {
