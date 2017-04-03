@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public abstract class AbstractPageTest {
 
-    private static String serverUrl = "http://10.0.1.71/conference-app-3.0.0";
+    private static String serverUrl = "http://10.0.1.71";
     private static final String SYSTEM_PROPERTY = "server.url";
     private String baseUrl;
 
